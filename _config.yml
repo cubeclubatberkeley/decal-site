@@ -70,9 +70,9 @@ lecture:
   location:
       name: "Evans 732"
       link: ""
-heading_links:
-  - text: "Attendance"
-    url: "https://forms.gle/1MhGnimh3Bn91SRbA"
+# heading_links:
+  # - text: "Attendance"
+  #   url: "https://forms.gle/1MhGnimh3Bn91SRbA"
 
 # - Used on staff.md to show students the staff email.
 staff_email: "berkeleycubeclub@gmail.com"
@@ -112,12 +112,14 @@ latest_sem: "https://decal.ryl.ee"
 aux_links:
   Dark Mode:
     - "#"
-  Source Code on GitHub:
-    - "https://github.com/cubeclubatberkeley/decal-site"
+  Attendance:
+    - "https://forms.gle/1MhGnimh3Bn91SRbA"
   EdStem:
     - "https://edstem.org/us/courses/106251/discussion"
   Gradescope:
     - "https://www.gradescope.com/courses/1399560"
+  Source Code on GitHub:
+    - "https://github.com/cubeclubatberkeley/decal-site"
 
 #######################################################
 # Config for Right Table of Contents                  #

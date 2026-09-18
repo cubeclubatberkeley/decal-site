@@ -29,7 +29,7 @@ hide_right_toc: true
     {%- endif -%}
 </span>
 {% endif -%}
-{%- if site.heading_links.size != 0 -%}
+<!-- {%- if site.heading_links.size != 0 -%}
 <span style="white-space: nowrap;">
     [
     {%- for link in site.heading_links -%}
@@ -42,7 +42,7 @@ hide_right_toc: true
     {%- endfor -%}
     ]
 </span>
-{% endif -%}
+{% endif -%} -->
 
 {%- if site.enable_announcements -%}
 ## Announcements
