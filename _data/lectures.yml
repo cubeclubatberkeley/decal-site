@@ -83,53 +83,59 @@ lecture_prefix: "/assets/lectures/cs101-sp25-lec"
 readings_prefix: "/assets/notes/cs101-sp25-note"
 
 lectures:
-  - title: "Introduction and Security Principles"
-    slides: "https://docs.google.com/presentation/d/18fP58xbaJQAKTzf3p1pW06lSWkT0umdlQCQuRwzsIhQ"
-    recording: "https://www.youtube.com/playlist?list=PLfBkt1-_BHX9eGdDJv1UIYuMs0oYJ5DCa"
+  # - title: "Introduction and Security Principles"
+  #   slides: "https://docs.google.com/presentation/d/18fP58xbaJQAKTzf3p1pW06lSWkT0umdlQCQuRwzsIhQ"
+  #   recording: "https://www.youtube.com/playlist?list=PLfBkt1-_BHX9eGdDJv1UIYuMs0oYJ5DCa"
+  #   readings:
+  #     - name: "Ch. 1"
+  #       link: "https://textbook.cs161.org/principles/principles.html"
+  - title: "Intro"
+    slides: "https://docs.google.com/presentation/d/1SDcSJ_yzvy9neHlH1gBtQI9Mgtre3rGlEYlarS_Eh3c/edit?usp=sharing"
+    rowspan: 1
+  - title: "Notation & Groups"
+    slides: ""
+    rowspan: 1
     readings:
-      - name: "Ch. 1"
-        link: "https://textbook.cs161.org/principles/principles.html"
-  - title: "x86 Assembly and Call Stack"
-    slides: "" # example of lecture slides automatically linking to a PDF file instead of Google Slides
-    recording: "https://www.youtube.com/playlist?list=PLfBkt1-_BHX_R0dlFGLnAxOEJtWXahfdN"
-    rowspan: 2
+      - name: "Note 1"
+        link: "/assets/notes/note1.pdf"
+  - title: "HW1 Review"
+    slides: ""
+    rowspan: 1
+  - title: "Subgroups and Langrange's Theorem"
+    slides: ""
+    rowspan: 1
     readings:
-      - name: "Ch. 2"
-        link: "https://textbook.cs161.org/memory-safety/x86.html"
-      - name: "x86/GDB Cheat Sheet"
-        link: "https://assets.cs161.org/proj1/cheatsheet.pdf"
-  - title: "Memory Safety Vulnerabilities"
-    slides: "https://docs.google.com/presentation/d/1M_oyCC1OE5oZPh7Qiwp8X2IIlWa6AAvel3ST0ndFgts"
-    recording: "https://www.youtube.com/playlist?list=PLfBkt1-_BHX9NcOVQ3z0tKo7_5uJpUajl"
+      - name: "Note 2"
+        link: "/assets/notes/note2.pdf"
+  - title: "HW2 Review"
+    slides: ""
+    rowspan: 1
+  - title: "Permutations and Symmetric Groups"
+    slides: ""
+    rowspan: 1
     readings:
-      - name: "Ch. 3"
-        link: "https://textbook.cs161.org/memory-safety/vulnerabilities.html"
-  - title: "Holiday (No Lecture)"
-    nonumber: true # skips assigning a number to this box
-  - title: "Memory Safety Vulnerabilities 2"
-    slides: "https://docs.google.com/presentation/d/140pgaTQT-7HgqP9Y7NLHXIlFeJHNInLauVaqFn455yI"
-    recording: "https://www.youtube.com/playlist?list=PLfBkt1-_BHX-g5R_j2HkJBohgyIkppSCl"
+      - name: "Note 3"
+        link: "/assets/notes/note3.pdf"
+  - title: "HW3 Review"
+    slides: ""
+    rowspan: 1
+  - title: "Parity and Commutators"
+    slides: ""
+    rowspan: 1
     readings:
-      - name: "Ch. 3"
-        link: "https://textbook.cs161.org/memory-safety/vulnerabilities.html"
-    extra: "[Sample extra link](https://google.com)"
-  - title: "Midterm (7–9pm)"
-    nonumber: true # skips assigning a number to this box
-  - title: "Optional Lecture"
-    slides: "https://docs.google.com/presentation/d/1gYzYu-T0ymaVcH87-mlCPc7qnRmWacHpKebCentDjoM"
-    classes:
-      - schedule-red
-  - title: "Mitigating Memory Safety Vulnerabilities"
-    video: "https://youtube.com/playlist?list=PLnp31xXvnfRpb4EQp0tOFJNZUXHnxTfXm"
-    slides: "https://docs.google.com/presentation/d/1ZONpx6qlqR2GyIF2nL3zjuDiOVknApgFOVwMHagmskI"
-    recording: "https://www.youtube.com/playlist?list=PLfBkt1-_BHX_clJKxwAxzStm4ctkNDXvt"
-    readings:
-      - name: "Ch. 4"
-        link: "https://textbook.cs161.org/memory-safety/mitigations.html"
-  - title: "Intro to Cryptography"
-    video: "https://www.youtube.com/playlist?list=PLnp31xXvnfRqyuN_xxm4o1Woa44dXW_N8"
-    slides: "https://docs.google.com/presentation/d/1CnAthtm-3sjX8d3rJiedRVVAmFIyj_4z4kQ2gNg7074"
-    recording: "https://www.youtube.com/playlist?list=PLfBkt1-_BHX_1xFvNccJVTpadyTgErwbD"
-    readings:
-      - name: "Ch. 5"
-        link: "https://textbook.cs161.org/crypto/intro.html"
+      - name: "Note 4"
+        link: "/assets/notes/note4.pdf"
+  - title: "**No Class - Veteran's Day**"
+    nonumber: true
+    slides: ""
+    rowspan: 1
+  - title: "HW4 Review (Final Day 1)"
+    slides: ""
+    rowspan: 1
+  - title: "**No Class - Thanksgiving Break**"
+    nonumber: true
+    slides: ""  
+    rowspan: 1
+  - title: "Class (Final Day 2)"
+    slides: ""
+    rowspan: 1

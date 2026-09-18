@@ -1,8 +1,7 @@
 ---
 layout: page
-title: Spring 2025 FAQs
+title: FAQs
 nav_order: 1
-parent: Resources
 ---
 
 # {{ site.data.faqs.semester_capital }} {{ site.data.faqs.year }} FAQs

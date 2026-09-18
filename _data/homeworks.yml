@@ -71,33 +71,21 @@
 #     - schedule-purple
 
 homeworks:
+  - title: ""
+    nonumber: true
+    rowspan: "1"
   - title: "" # blank for auto-numbering as "HW1"
     link: ""
-    due: "2025/01/24"
-    parts:
-      - name: "Part A"
-        link: "https://www.gradescope.com/courses/942380/assignments/5689760"
-      - name: "Part B"
-        link: "https://www.gradescope.com/courses/942380/assignments/5689747"
-    rowspan: "1"
-  - title: "" # blank for auto-numbering as "HW2"
+    due: "2026/10/6"
+  - title: ""
     link: ""
-    due: "2025/01/31"
-    parts:
-      - name: "Part A"
-        link: "https://www.gradescope.com/courses/942380/assignments/5732755"
-      - name: "Part B"
-        link: "https://www.gradescope.com/courses/942380/assignments/5732760"
-  - title: "No Homework"
+    due: "2026/10/20"
+  - title: ""
+    link: ""
+    due: "2026/11/03"
+  - title: ""
+    link: ""
+    due: "2026/11/24"
+  - title: ""
     nonumber: true
-  - title: "" # blank for auto-numbering as "HW3"
-    link: ""
-    hide_links: true # since this is true, links don't show
-    due: "2025/02/14"
-    parts:
-      - name: "Part A"
-        link: "https://www.gradescope.com/courses/942380/assignments/5788266"
-      - name: "Part B"
-        link: "https://www.gradescope.com/courses/942380/assignments/5788277"
-    rowspan: "3" # because this week has an extra row for the midterm
-  - nonumber: true # blank box in Week 5 (otherwise you get auto-numbered "HW4")
+    rowspan: "3"

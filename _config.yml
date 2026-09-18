@@ -25,8 +25,8 @@
 
 # - Jekyll default variables.
 # - For the title on the homepage, the name people see in the browser tab, etc.
-title: "Course Name"
-description: "Course Name at School Name"
+title: "Rubik's Cube/Speedcubing Decal"
+description: "How to Solve a Rubik's Cube and Speedcubing"
 
 # - Jekyll default variable.
 # - The subpath of your site, e.g. /blog
@@ -40,7 +40,7 @@ baseurl: ""
 
 # - Jekyll default variable.
 # - The full URL of your homepage.
-url: "https://template.cs161.org"
+url: "https://decal.ryl.ee"
 
 # - Used in _includes/title.html and index.html
 # - Path to an image to display in two places:
@@ -54,34 +54,32 @@ logo: "/assets/images/logo.png"
 # - Used in _includes/title.html
 # - Optional text that replaces site.title at the top of the sidebar when set.
 # - If logo is set and shorthand_text is left blank, the logo will take up 100% of the space.
-shorthand_text: "Course Name"
+shorthand_text: "Cubing Decal"
 
 # - Can be used throughout the website (e.g. project specs).
 # - Example: In the spec, write "Pull from the skeleton-{{ site.semester_slug }} repo."
 #   This will automatically update to "skeleton-fa24" or "skeleton-sp25" each semester.
-semester_slug: "sp25"
-semester_full: "Spring 2025"
+semester_slug: "fa26"
+semester_full: "Fall 2026"
 
 # - Updates the top line of the homepage, i.e. the one that says
 #   "Instructor: EvanBot / Lecture: TuTh, 12:30–2:00 PM, Wheeler 150 [Zoom, Playlist]"
 # - Note: Instructor is pulled from the _staffers folder.
 lecture:
-  time: "TuTh, 12:30–2:00 PM"
+  time: "Wed 5-6pm/6-7pm"
   location:
-      name: "Wheeler 150"
+      name: "Evans 732"
       link: ""
 heading_links:
-  - text: "Zoom"
-    url: "https://berkeley.zoom.us"
-  - text: "Playlist"
-    url: "https://www.youtube.com/playlist?list=PLp8QV47qJEg4fg0UAZzU2FeuZrs6XMjkK"
+  - text: "Attendance"
+    url: "https://forms.gle/1MhGnimh3Bn91SRbA"
 
 # - Used on staff.md to show students the staff email.
-staff_email: "evanbot@berkeley.edu"
+staff_email: "berkeleycubeclub@gmail.com"
 
 # - Use this to show/hide the "announcements" feature on the homepage.
 # - Add your weekly announcements in the _announcements folder.
-enable_announcements: true
+enable_announcements: false
 
 
 #######################################################
@@ -89,7 +87,7 @@ enable_announcements: true
 #######################################################
 
 # - Set this to true at the start of semesters to show a warning on every page.
-under_construction: false
+under_construction: true
 
 # - Set this to true in the first few weeks of the semester
 #   if discussion times are uncertain (populates on calendar.md only).
@@ -102,7 +100,7 @@ outdated: false
 # - Ideally this is a URL that always redirects to your current semester, e.g.
 #   https://cs161.org or https://inst.eecs.berkeley.edu/~cs188
 # - This is only used in _layouts/page.html and _layouts/project.html.
-latest_sem: "https://template.cs161.org"
+latest_sem: "https://decal.ryl.ee"
 
 
 #######################################################
@@ -114,12 +112,12 @@ latest_sem: "https://template.cs161.org"
 aux_links:
   Dark Mode:
     - "#"
-  Ed:
-    - "https://edstem.org"
-  OH Queue:
-    - "https://oh.cs161.org"
   Source Code on GitHub:
-    - "https://github.com/cs161-staff/course-site-template"
+    - "https://github.com/cubeclubatberkeley/decal-site"
+  EdStem:
+    - "https://edstem.org/us/courses/106251/discussion"
+  Gradescope:
+    - "https://www.gradescope.com/courses/1399560"
 
 #######################################################
 # Config for Right Table of Contents                  #
