@@ -90,10 +90,10 @@ lectures:
   #     - name: "Ch. 1"
   #       link: "https://textbook.cs161.org/principles/principles.html"
   - title: "Intro"
-    slides: "https://docs.google.com/presentation/d/1SDcSJ_yzvy9neHlH1gBtQI9Mgtre3rGlEYlarS_Eh3c/edit?usp=sharing"
+    slides: "https://docs.google.com/presentation/d/1SDcSJ_yzvy9neHlH1gBtQI9Mgtre3rGlEYlarS_Eh3c/edit?"
     rowspan: 1
   - title: "Notation & Groups"
-    slides: ""
+    slides: "https://docs.google.com/presentation/d/1EX8pUfeClp8Ao2qwSNL79RzNKJPRChEqAUz08KU37sw/edit?"
     rowspan: 1
     readings:
       - name: "Note 1"

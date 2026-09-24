@@ -82,9 +82,9 @@ project_alternate_color: true
 
 # Edit the widths of columns here.
 week_width: "7%"
-date_width: "7%"
-lecture_width: "43%"
-# readings_width: "28%" # unused by default, see syllabus.html to use this
+date_width: "8%"
+lecture_width: "42%"
+readings_width: "28%" # unused by default, see syllabus.html to use this
 # discussion_width: "0%"
 # labs_width: "0%" # unused by default, see syllabus.html to use this
 homework_width: "15%"
