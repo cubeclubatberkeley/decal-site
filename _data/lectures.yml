@@ -99,7 +99,7 @@ lectures:
       - name: "Note 1"
         link: "/assets/notes/note1.pdf"
   - title: "HW1 Review"
-    slides: ""
+    slides: "https://docs.google.com/presentation/d/1yvRVFE8WzT6h6EYiQWIo-XAKZkj4vGGDbMxuwWOhodA/edit?slide=id.g331ccf225ae_0_88#slide=id.g331ccf225ae_0_88"
     rowspan: 1
   - title: "Subgroups and Langrange's Theorem"
     slides: ""
